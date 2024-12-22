@@ -1,0 +1,309 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  /* Default logo size */
+.logo-responsive {
+    width: 250px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Reduce logo size for screens smaller than 700px */
+
+  @media (max-width: 1130px) {
+    .logo-responsive {
+      width: 200px; /* Smaller size for smaller screens */
+      height: auto;
+    }
+  }
+  @media (max-width: 700px) {
+    .logo-responsive {
+      width: 220px; /* Smaller size for smaller screens */
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .logo-responsive {
+      width: 200px; /* Smaller size for smaller screens */
+      height: auto;
+    }
+  }
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #0066ff;
+  }
+  
+  .nav-btn {
+    font-size: 0.9rem;
+    padding: 5px 15px;
+  }
+  
+  /* Hero Section */
+  .hero-container {
+    background: linear-gradient(to bottom, #ffffff, #f4f7fc);
+    padding: 60px 0;
+  }
+  
+  .hero-title {
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  /* Medium Devices (Tablets, 768px and up) */
+
+  @media (max-width: 1399.98px) {
+    .hero-title {
+      font-size: 45px; /* Reduce font size for medium devices */
+    }
+  }
+
+  @media (max-width: 1199.98px) {
+    .hero-title {
+      font-size: 30px; /* Reduce font size for medium devices */
+    }
+  }
+  @media (max-width: 991.98px) {
+    .hero-title {
+      font-size: 25px; /* Reduce font size for medium devices */
+    }
+  }
+  
+  /* Small Devices (Phones, 576px and up) */
+  @media (max-width: 767.98px) {
+    .hero-title {
+      font-size: 40px; /* Further reduce font size for small devices */
+    }
+  }
+  
+  /* Extra Small Devices (Phones, 576px and below) */
+  @media (max-width: 575.98px) {
+    .hero-title {
+      font-size: 30px; /* Smallest font size for extra small devices */
+    }
+  }
+  
+  .hero-subtitle {
+    font-size: 21px;
+    color: #555;
+  }
+
+  @media (max-width: 1399.98px) {
+    .hero-subtitle {
+        font-size: 18px; /* Reduce font size for medium devices */
+    }
+  }
+
+  @media (max-width: 1199.98px) {
+    .hero-subtitle {
+        font-size: 18px; /* Reduce font size for medium devices */
+    }
+  }
+  @media (max-width: 991.98px) {
+    .hero-subtitle {
+        font-size: 16px; /* Reduce font size for medium devices */
+    }
+  }
+  
+  /* Small Devices (Phones, 576px and up) */
+  @media (max-width: 767.98px) {
+    .hero-title {
+      font-size: 40px; /* Further reduce font size for small devices */
+    }
+  }
+  
+  /* Extra Small Devices (Phones, 576px and below) */
+  @media (max-width: 575.98px) {
+    .hero-title {
+      font-size: 30px; /* Smallest font size for extra small devices */
+    }
+  }
+  
+  .btn-primary {
+    background-color: #0066ff;
+    border: none;
+    font-weight: 600;
+    padding: 10px 40px;
+  }
+  
+  .btn-primary2 {
+    color: #4C4C4C;
+    font-weight: 600;
+  }
+  
+  .btn-outline-primary:hover {
+    color: #fff;
+  }
+  
+ 
+  
+  /* Logos Section */
+  .logos-section img {
+    opacity: 0.8;
+    width: 100%;
+  }
+  
+  .logos-section img:hover {
+    opacity: 1;
+  }
+
+  .icon {
+    width: 16px; /* Adjust to desired size */
+    height: 16px; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+  }
+
+
+
+  
+  .section-title {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1200.98px) {
+    .section-title {
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+  }
+  
+  @media (max-width: 1000px) {
+    .section-title {
+        font-size: 38px; 
+        margin-bottom: 20px;
+      }
+  }
+  
+
+  .accordion-button {
+    background-color: transparent; /* No background color */
+    color: #000; /* Text color */
+    font-size: 24px;
+    font-weight: 700;
+
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none; /* Remove focus outline */
+    
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: transparent; /* Ensures no color is applied when open */
+    color: #000; /* Keeps text color consistent */
+    border-bottom: 1px solid #D3D3D3; /* Light gray border */
+
+  }
+  
+
+  
+  .accordion-body {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .saas-magic-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+
+  @media (max-width: 1200.98px) {
+    .saas-magic-number {
+       
+        width: 90%;
+        margin-right: auto;
+        align-items: center;
+      }
+  }
+  
+  
+  @media (max-width: 767.98px) {
+    .saas-magic-number {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  
+
+
+  .stats-section {
+    background-color: #000; /* Black background */
+  }
+  
+  .stats-item {
+    border-left: 1px solid #555; /* Vertical divider lines */
+    padding-left: 20px;
+  }
+  
+  .stats-item:first-child {
+    border-left: none; /* Remove border for the first column */
+  }
+  
+  .stats-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #8A8A8A; /* Slightly gray title color */
+  }
+  
+  .stats-value {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .stats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .stats-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #242424; /* Thin line for item separation */
+    padding-bottom: 5px;
+    color: #BEBCBC; /* Light gray text color */
+  }
+  
+ 
+  
+ 
